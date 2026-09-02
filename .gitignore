@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+.streamlit/secrets.toml
+.ipynb_checkpoints/
+*.egg-info/
+.DS_Store
+Thumbs.db
+*.log
+interrupt_poc_activity.log
+
+# 本番アプリの実装前に中断機構(st.fragment)を検証するための内部検証専用ファイル。
+# ローカルには残すが、公開リポジトリには含めない。
+/interrupt_poc.py
+/interrupt_poc_activity.log
